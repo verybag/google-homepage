@@ -1,3 +1,3 @@
 # google-homepage
 
-This is my readme!
+This is my Google homepage for The Odin Project
