@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
+.material-icons-outlined{
+    font-family: "Material Icons", serif;
+}
+
+:root{
+    font-family: "Arial";
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+header{
+    top: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+#navbar{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+nav div a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#left-div{
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+#right-div{
+    justify-content: flex-end;
+}
+
+
+#avatar{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 1rem;
+
+}
+
+.search-form{
+    display: flex;
+    margin: 0 auto;
+    border: 0.1rem solid rgba(100, 100, 100, .2);
+    border-radius: 30px;
+    width: 600px;
+    height: 3rem;
+    align-items: center;
+    justify-content: left;
+}
+
+.search-buttons{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.button{
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0;
+    background: #f1f1f1;
+}
+
+#magnifying-glass{
+    height: auto;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 0.25rem;
+    padding-top: 0.15rem;
+}
+
+.search-bar{
+    border: none;
+    font-size: 1rem;
+    width: 75%;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer{
+    background: #f1f1f1;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+main{
+    margin: 0;
+}
+.left-div-footer{
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+footer div{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.right-div-footer{
+    justify-content: flex-end;
+}
+
+
+
+footer div a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: gray;
+    
+}
